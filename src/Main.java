@@ -1,7 +1,12 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
+        Tank tank = new Tank();
+        tank.goForward(10);
+        tank.printPosition();
+        tank.turnRight();
+        tank.goBackward(100);
+        tank.printPosition();
 
     }
 }
