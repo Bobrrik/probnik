@@ -5,7 +5,7 @@ public class Main {
         tank.goForward(10);
         tank.printPosition();
         tank.turnRight();
-        tank.goBackward(100);
+        tank.goBackward(10);
         tank.printPosition();
 
     }
